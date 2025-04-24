@@ -19,4 +19,10 @@ $ pip intall -r requirements.txt
 $ cp .env.example .env
 ```
 
-and then setup the envirinment variables
+and then setup the envirinment variables like `OPENAI_API_KEY`
+
+### run the fastapi server
+
+```bash
+main:app --reload --host 0.0.0.0 --port 5000
+```
