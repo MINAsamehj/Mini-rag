@@ -4,8 +4,11 @@ project to have a conversation with AI
 
 ## requirments
 (can all be installed using conda)
-1-python 3.10
 
+to install packges in requirments file use 
+```bash
+$ pip install -r requirements.txt
+```
 
 ## installation
 ### install the required packges
@@ -24,5 +27,5 @@ and then setup the envirinment variables like `OPENAI_API_KEY`
 ### run the fastapi server
 
 ```bash
-main:app --reload --host 0.0.0.0 --port 5000
+uvicorn main:app --reload --host 0.0.0.0 --port 5000
 ```
